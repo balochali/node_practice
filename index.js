@@ -1,1 +1,4 @@
-console.log("Welcome, Hello I'm Ali")
+const fs = require('fs');
+
+fs.writeFileSync("newFile", "Hello, How are You");
+
